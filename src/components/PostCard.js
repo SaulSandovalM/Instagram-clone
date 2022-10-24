@@ -125,7 +125,7 @@ export default function PostCard({ id, post, userName, uid }) {
             <MoreHorizOutlinedIcon sx={{ color: "black" }} />
           </IconButton>
         }
-        title={userName.toLowerCase()}
+        title={post.userName.toLowerCase()}
         subheader={post.location}
       />
       <CardMedia

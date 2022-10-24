@@ -178,7 +178,7 @@ export default function Nav(props) {
         getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
           try {
             addDoc(collection(db, "posts"), {
-              userImage: userImage,
+              userImage: userImage ? userImage : "",
               userName: userName,
               location: location,
               image: downloadURL,

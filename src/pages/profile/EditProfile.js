@@ -40,8 +40,7 @@ export default function EditProfile(props) {
       email: state.email,
       phone: state.phone,
       gender: state.gender,
-      image:
-        "https://scontent.flov1-1.fna.fbcdn.net/v/t39.30808-6/292274638_2223544677804834_4844359771652935425_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeF05SgLsVuWooEW1-oGg2dWYWaoXWLOwuRhZqhdYs7C5BHPrQ__31c1cCDJjWl_oLJrMwDPdjXnTT18QPSRWCjT&_nc_ohc=mOGkI6OvhwYAX_nw-gq&_nc_ht=scontent.flov1-1.fna&oh=00_AT_EXNsZsA9-TEV2K_iXUYN4b6yBmMj4yB3_7SuYtTCmNA&oe=635890F5",
+      image: "",
     });
   };
 
