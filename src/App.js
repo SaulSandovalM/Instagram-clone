@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import { Toolbar, Container, Box, Hidden } from "@mui/material";
 import Router from "./routes/Router";
 import Nav from "./components/Nav";
@@ -56,7 +56,7 @@ export default function App() {
 
   return (
     <div style={{ background: "#fafafa" }}>
-      <BrowserRouter>
+      <HashRouter>
         {user ? (
           <Box>
             <Nav user={user} auth={auth} />
@@ -72,7 +72,7 @@ export default function App() {
         ) : (
           <Login />
         )}
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
